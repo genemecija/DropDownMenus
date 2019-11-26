@@ -143,8 +143,8 @@ li:hover > ul.menu-choices#one li:nth-child(5) {
 @-webkit-keyframes menu1 {
   0% {
     opacity: 0;
-    -webkit-transform: rotateY(-90deg) translateY(30px);
-            transform: rotateY(-90deg) translateY(30px);
+    -webkit-transform: rotateY(90deg) translateY(30px);
+            transform: rotateY(90deg) translateY(30px);
   }
   100% {
     opacity: 1;
@@ -156,8 +156,8 @@ li:hover > ul.menu-choices#one li:nth-child(5) {
 @keyframes menu1 {
   0% {
     opacity: 0;
-    -webkit-transform: rotateY(-90deg) translateY(30px);
-            transform: rotateY(-90deg) translateY(30px);
+    -webkit-transform: rotateY(90deg) translateY(30px);
+            transform: rotateY(90deg) translateY(30px);
   }
   100% {
     opacity: 1;
@@ -240,28 +240,28 @@ li:hover > ul.menu-choices#three li {
 }
 
 li:hover > ul.menu-choices#three li:nth-child(1) {
-  -webkit-animation: menu3 200ms ease-in-out -100ms 1 normal forwards;
-          animation: menu3 200ms ease-in-out -100ms 1 normal forwards;
+  -webkit-animation: menu3 200ms ease-in-out -170ms 1 normal forwards;
+          animation: menu3 200ms ease-in-out -170ms 1 normal forwards;
 }
 
 li:hover > ul.menu-choices#three li:nth-child(2) {
-  -webkit-animation: menu3 400ms ease-in-out 0ms 1 normal forwards;
-          animation: menu3 400ms ease-in-out 0ms 1 normal forwards;
+  -webkit-animation: menu3 400ms ease-in-out -140ms 1 normal forwards;
+          animation: menu3 400ms ease-in-out -140ms 1 normal forwards;
 }
 
 li:hover > ul.menu-choices#three li:nth-child(3) {
-  -webkit-animation: menu3 600ms ease-in-out 100ms 1 normal forwards;
-          animation: menu3 600ms ease-in-out 100ms 1 normal forwards;
+  -webkit-animation: menu3 600ms ease-in-out -110ms 1 normal forwards;
+          animation: menu3 600ms ease-in-out -110ms 1 normal forwards;
 }
 
 li:hover > ul.menu-choices#three li:nth-child(4) {
-  -webkit-animation: menu3 800ms ease-in-out 200ms 1 normal forwards;
-          animation: menu3 800ms ease-in-out 200ms 1 normal forwards;
+  -webkit-animation: menu3 800ms ease-in-out -80ms 1 normal forwards;
+          animation: menu3 800ms ease-in-out -80ms 1 normal forwards;
 }
 
 li:hover > ul.menu-choices#three li:nth-child(5) {
-  -webkit-animation: menu3 1000ms ease-in-out 300ms 1 normal forwards;
-          animation: menu3 1000ms ease-in-out 300ms 1 normal forwards;
+  -webkit-animation: menu3 1000ms ease-in-out -50ms 1 normal forwards;
+          animation: menu3 1000ms ease-in-out -50ms 1 normal forwards;
 }
 
 @-webkit-keyframes menu3 {
@@ -313,28 +313,28 @@ li:hover > ul.menu-choices#four li {
 }
 
 li:hover > ul.menu-choices#four li:nth-child(1) {
-  -webkit-animation: menu4 130ms ease-in-out -110ms 1 normal forwards;
-          animation: menu4 130ms ease-in-out -110ms 1 normal forwards;
+  -webkit-animation: menu4 200ms ease-in-out -170ms 1 normal forwards;
+          animation: menu4 200ms ease-in-out -170ms 1 normal forwards;
 }
 
 li:hover > ul.menu-choices#four li:nth-child(2) {
-  -webkit-animation: menu4 260ms ease-in-out -90ms 1 normal forwards;
-          animation: menu4 260ms ease-in-out -90ms 1 normal forwards;
+  -webkit-animation: menu4 400ms ease-in-out -140ms 1 normal forwards;
+          animation: menu4 400ms ease-in-out -140ms 1 normal forwards;
 }
 
 li:hover > ul.menu-choices#four li:nth-child(3) {
-  -webkit-animation: menu4 390ms ease-in-out -70ms 1 normal forwards;
-          animation: menu4 390ms ease-in-out -70ms 1 normal forwards;
+  -webkit-animation: menu4 600ms ease-in-out -110ms 1 normal forwards;
+          animation: menu4 600ms ease-in-out -110ms 1 normal forwards;
 }
 
 li:hover > ul.menu-choices#four li:nth-child(4) {
-  -webkit-animation: menu4 520ms ease-in-out -50ms 1 normal forwards;
-          animation: menu4 520ms ease-in-out -50ms 1 normal forwards;
+  -webkit-animation: menu4 800ms ease-in-out -80ms 1 normal forwards;
+          animation: menu4 800ms ease-in-out -80ms 1 normal forwards;
 }
 
 li:hover > ul.menu-choices#four li:nth-child(5) {
-  -webkit-animation: menu4 650ms ease-in-out -30ms 1 normal forwards;
-          animation: menu4 650ms ease-in-out -30ms 1 normal forwards;
+  -webkit-animation: menu4 1000ms ease-in-out -50ms 1 normal forwards;
+          animation: menu4 1000ms ease-in-out -50ms 1 normal forwards;
 }
 
 @-webkit-keyframes menu4 {

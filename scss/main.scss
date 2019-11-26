@@ -70,7 +70,7 @@ li:hover > ul.menu-choices#one {
 @keyframes menu1 {   
     0% {
         opacity: 0;
-        transform: rotateY(-90deg) translateY(30px);
+        transform: rotateY(90deg) translateY(30px);
     }
     100% {
         opacity: 1;
@@ -112,7 +112,7 @@ li:hover > ul.menu-choices#three {
         opacity: 0;
         @for $i from 1 through 5 {
             &:nth-child(#{$i}) {
-                animation: menu3 200ms*$i ease-in-out (100ms*$i)-200 1 normal forwards;
+                animation: menu3 200ms*$i ease-in-out (30ms*$i)-200 1 normal forwards;
             }
         }
         display: block;
@@ -142,7 +142,7 @@ li:hover > ul.menu-choices#four {
         transform-origin: top left;
         @for $i from 1 through 5 {
             &:nth-child(#{$i}) {
-                animation: menu4 130ms*$i ease-in-out (20ms*$i)-130 1 normal forwards;
+                animation: menu4 200ms*$i ease-in-out (30ms*$i)-200 1 normal forwards;
             }
         }
         display: block;
